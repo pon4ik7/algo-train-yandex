@@ -19,8 +19,7 @@ func Task2Solution(arr []int) (num1, num2 int) {
 		if num1 <= num2 {
 			return num1, num2
 		}
-		num1, num2 = num2, num1
-		return num1, num2
+		return num2, num1
 
 	}
 
@@ -48,8 +47,7 @@ func Task2Solution(arr []int) (num1, num2 int) {
 	if num1 <= num2 {
 		return num1, num2
 	}
-	num1, num2 = num2, num1
-	return num1, num2
+	return num2, num1
 }
 
 func main() {
